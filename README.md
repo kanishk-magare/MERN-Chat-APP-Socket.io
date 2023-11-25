@@ -13,7 +13,7 @@ Welcome to the **MERN Chat App**, where real-time communication meets seamless m
 
 1. **Clone & Install:**
    ```bas
-  --> git clone https://github.com/your-username/your-repo.git
+   git clone https://github.com/your-username/your-repo.git
    cd your-repo && npm install
    
 Configure Environment:
