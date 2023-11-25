@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>WhatsApp</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="chat-container">
+        <div id="header">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp Logo">
+            <h1>WhatsApp</h1>
+        </div>
+        <select id="userList"></select>
+        <ul id="messages">
+            <!-- Messages will be added here -->
+        </ul>
+        <div id="messageInputContainer">
+            <input id="messageInput" autocomplete="off" placeholder="Type your message" />
+            <button id="sendButton">Send</button>
+            <button id="clearChat">Clear</button>
+        </div>
+    </div>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="./script.js"></script>
+    <div id="joinLeaveContainer">
+        <button id="joinChat">Join Chat</button>
+        <button id="leaveChat">Leave Chat</button>
+    </div>
+</body>
+</html>
